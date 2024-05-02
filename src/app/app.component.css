@@ -1,0 +1,12 @@
+.glass-background {
+    background: rgba(255, 255, 255, 0.2); /* Glass background effect */
+    backdrop-filter: blur(10px); /* Glass blur effect */
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center; /* Center content */
+    color: white; /* Text color */
+  }
+  
+  .navbar {
+    width: 50%; /* Adjust the width as needed */
+  }
+  
