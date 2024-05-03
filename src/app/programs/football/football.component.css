@@ -1,0 +1,49 @@
+.logo-container {
+    max-width: 50px; /* Adjust the max-width as needed */
+  }  
+  h1{
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 45px;
+
+  }
+  hr {
+    border-color: white;
+    width: 100vw;
+}
+.vw-100{
+    width: 80vw !important;
+}
+.text{
+    font-family: "Akaya Kanadaka", system-ui;
+font-size: 25px;
+}
+.container {
+    padding: 20px;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(45deg, #1c1c1c, #4d4d4d);
+    border-radius: 20px;
+  }
+
+  .capsule-panel {
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .capsule-panel::ng-deep .mat-expansion-panel-header {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+
+  .capsule-panel::ng-deep .mat-expansion-panel-body {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .centered-title {
+    text-align: center;
+    width: 100%;
+  }
