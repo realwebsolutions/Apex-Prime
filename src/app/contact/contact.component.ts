@@ -45,14 +45,10 @@ sendmessage(formValues: any){
 
   })
   alert('Message send Succesfully');
-  const starCountRef = ref(this.database,'users/'+formValues.name)
+  this.messageform.reset();
+
           
-  return onValue(starCountRef, (snapshot) => {
-    const username = (snapshot.val() && snapshot.val().username) || 'Anonymous';
-  
-  }, {
-    onlyOnce: true
-  });
+ 
  
 
 }
