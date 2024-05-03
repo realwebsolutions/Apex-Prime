@@ -49,7 +49,7 @@
 .header{
     margin-top: 70px;
 }
-@media (max-width: 800px) {
+@media (max-width: 550px) {
     .program-card {
         height: auto;
         width: auto;

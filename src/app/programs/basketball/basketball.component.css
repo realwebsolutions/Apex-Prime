@@ -13,10 +13,16 @@
 .vw-100{
     width: 80vw !important;
 }
-.text{
-    font-family: "Akaya Kanadaka", system-ui;
-font-size: 20px;
-}
+.text {
+    font-family: "Akaya Kanadaka", serif;
+    font-size: 24px;
+    line-height: 1.8;
+    color: #c6c6c6;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 .container {
     padding: 20px;
   }
@@ -61,5 +67,10 @@ font-size: 20px;
     transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) .6s;
   }
   .text-container{
-    margin-top: 85px;
+    margin-top: 200px;
   }
+  @media (max-width: 550px) {
+.text-container{
+    margin-top: 130px;
+}  
+}
