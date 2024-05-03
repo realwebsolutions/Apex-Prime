@@ -19,6 +19,21 @@ h3{
 #gradient{
     background-image: linear-gradient(to bottom, black, white);
 }
-#gradients{
-    background-image: linear-gradient(to top, black, white);
+.bg-image {
+    background-image: url('../../assets/run.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-container {
+    max-width: 90%; /* Adjust the max-width as needed */
+    font-family: "Bayon", sans-serif;
+line-height: 1.5;
+font-size: 30px;
+  }
+  @media (max-width: 550px) {
+.text-container{
+    font-size: 24px;
+
+}  
 }
