@@ -28,11 +28,27 @@
     }
   }
 
+  #gradient {
+    background-image: linear-gradient(to bottom, black, white);
+    font-size: 50px;
+    line-height: 1.5;
+    font-family: "Bayon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+
+.display-1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
   @media (max-width: 800px) {
 
 h1{
     font-size: 25px;
+
+}
+#gradient{
+    font-size: 20px;
 
 }
 .level-up-container{
