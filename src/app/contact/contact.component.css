@@ -1,0 +1,38 @@
+.logo-container {
+    max-width: 100px; /* Adjust the max-width as needed */
+  }  
+  h1{
+    font-family: 'Bruno Ace SC', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+  }
+  .contact-capsule {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
