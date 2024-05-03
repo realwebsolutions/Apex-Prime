@@ -1,0 +1,54 @@
+.program-text {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: "Black Ops One", system-ui;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.program-card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;;
+}
+
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+}
+#football{
+    background-image: url('../../assets/football.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#basketball{
+    background-image: url('../../assets/basketball.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+@media (max-width: 800px) {
+    .program-card {
+        height: auto;
+        width: auto;
+    }
+}
