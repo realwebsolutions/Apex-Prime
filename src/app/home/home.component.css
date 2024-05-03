@@ -1,3 +1,42 @@
-.vh-100{
-    height: 90vh !important;
+.logo-container {
+    max-width: 400px; /* Adjust the max-width as needed */
+  }
+  h1{
+    font-family: 'Bruno Ace SC', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 50px;
+  }
+.level-up-container{
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    animation: fadeInOut 1s ease infinite alternate; /* Adjust the duration and timing function as needed */
+    opacity: 0; /* Initially set opacity to 0 */
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0; /* Fade out at the start */
+    }
+    50% {
+      opacity: 1; /* Fade in halfway through */
+    }
+    100% {
+      opacity: 0; /* Fade out at the end */
+    }
+  }
+
+
+  @media (max-width: 800px) {
+
+h1{
+    font-size: 25px;
+
 }
+.level-up-container{
+    margin-top: 0;
+    font-size: 20px;
+}
+  }
