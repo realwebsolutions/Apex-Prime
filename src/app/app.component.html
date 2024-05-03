@@ -1,7 +1,14 @@
-  <nav>
+  <div id="logo" *ngIf="!scrolled" (click)="home()">
+    <img src="../../assets/logo.png" alt="Logo" class="img-fluid">
+
+  </div>
+  
+  <nav *ngIf="!scrolled">
       <a routerLink="/vision">Vision</a>
       <a routerLink="/programs">Program</a>
       <a routerLink="/contact">Contact</a>
   </nav>
-  <router-outlet></router-outlet>
-  
+  <nav *ngIf="scrolled" id="scrolled" class="text-white">
+   <a (click)="scrol()"> <mat-icon> dehaze</mat-icon></a>
+</nav>
+  <router-outlet ></router-outlet>
