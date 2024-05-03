@@ -15,11 +15,12 @@ export class AppComponent {
   title = 'apexprime';
   scrolled = false;
   lastScrollY: number = 0;
-constructor(private router :Router){}
+  constructor(private router :Router){}
   
 home(){
   this.router.navigate(['/home']);
 }
+
 @HostListener('window:scroll', ['$event'])
 onWindowScroll() {
   const currentScrollY = window.pageYOffset;
@@ -33,12 +34,14 @@ onWindowScroll() {
     this.scrolled = true;
   } 
   else{
-    
+
     this.scrolled = true;
   }
 
   this.lastScrollY = currentScrollY;
 }
+
+
   scrol(){
     this.scrolled = false;
 

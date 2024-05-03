@@ -46,6 +46,9 @@
     background-repeat: no-repeat;
 
 }
+.header{
+    margin-top: 70px;
+}
 @media (max-width: 800px) {
     .program-card {
         height: auto;

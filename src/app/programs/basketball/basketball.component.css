@@ -3,7 +3,7 @@
   }  
   h1{
     font-family: "Bruno Ace", sans-serif;
-    font-size: 45px;
+    font-size: 35px;
 
   }
   hr {
@@ -57,4 +57,7 @@ font-size: 20px;
     font-size: 15px;
     letter-spacing: 2px;
     transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) .6s;
+  }
+  .text-container{
+    margin-top: 85px;
   }
