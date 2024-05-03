@@ -1,0 +1,24 @@
+
+.vision-text {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: "Black Ops One", system-ui;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    background-color: rgba(0, 0, 0, 0.179);
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+#gradient{
+    background-image: linear-gradient(to bottom, black, white);
+}
+#gradients{
+    background-image: linear-gradient(to top, black, white);
+}

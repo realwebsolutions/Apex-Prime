@@ -55,4 +55,8 @@ h1{
     margin-top: 0;
     font-size: 20px;
 }
+.logo-container {
+    max-width: 200px; /* Adjust the max-width as needed */
+
   }
+}
