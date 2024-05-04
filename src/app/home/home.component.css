@@ -48,7 +48,6 @@
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: flex-end;
 }
 
 .social-links li {
