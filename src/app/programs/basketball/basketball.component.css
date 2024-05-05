@@ -1,76 +1,92 @@
 .logo-container {
-    max-width: 50px; /* Adjust the max-width as needed */
-  }  
-  h1{
-    font-family: "Bruno Ace", sans-serif;
-    font-size: 35px;
+  max-width: 50px;
+  /* Adjust the max-width as needed */
+}
 
-  }
-  hr {
-    border-color: white;
-    width: 100vw;
+h1 {
+  font-family: "Bruno Ace", sans-serif;
+  font-size: 35px;
 }
-.vw-100{
-    width: 80vw !important;
+
+hr {
+  border-color: white;
+  width: 100vw;
 }
+
+.vw-100 {
+  width: 80vw !important;
+}
+
 .text {
-    font-family: "Akaya Kanadaka", serif;
-    font-size: 24px;
-    line-height: 1.8;
-    color: #c6c6c6;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-.container {
-    padding: 20px;
-  }
+  font-family: "Akaya Kanadaka", serif;
+  font-size: 24px;
+  line-height: 1.8;
+  color: #c6c6c6;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.containers {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .gradient-bg {
-    background: linear-gradient(45deg, #1c1c1c, #4d4d4d);
-   
+  background: linear-gradient(45deg, #1c1c1c, #4d4d4d);
 }
 
-  .capsule-panel {
-    background-color: transparent;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    color: rgb(0, 0, 0);
-  }
+.capsule-panel {
+  background-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  color: rgb(0, 0, 0);
+}
 
-  .capsule-panel::ng-deep .mat-expansion-panel-header {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    padding: 10px 20px;
-  }
+.capsule-panel::ng-deep .mat-expansion-panel-header {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
 
-  .capsule-panel::ng-deep .mat-expansion-panel-body {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 20px;
-  }
-  .centered-title {
-    text-align: center;
-    width: 100%;
-    color: white;
-  }
-  a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    display: block;
-    padding: 10px 15px;
-    line-height: 1;
-    font-size: 15px;
-    letter-spacing: 2px;
-    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) .6s;
-  }
-  .text-container{
-    margin-top: 200px;
-  }
-  @media (max-width: 550px) {
-.text-container{
+.capsule-panel::ng-deep .mat-expansion-panel-body {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.centered-title {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  padding: 10px 15px;
+  line-height: 1;
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1) 0.6s;
+}
+
+.text-container {
+  margin-top: 200px;
+}
+
+@media (max-width: 550px) {
+  .text-container {
     margin-top: 130px;
-}  
+  }
+  .capsule-panel {
+    width: 100%;
+  }
 }

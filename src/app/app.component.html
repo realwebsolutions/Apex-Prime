@@ -1,8 +1,10 @@
-    <div id="logo" *ngIf="!scrolled" (click)="home()">
+    <!-- <div id="logo" *ngIf="!scrolled" (click)="home()">
       <img src="../../assets/logo.png" alt="Logo" class="img-fluid">
-  </div>
+  </div> -->
   
   <nav *ngIf="!scrolled">
+    <a routerLink="/home">    <img  src="../assets/hm.png" class="img-fluid" width="40px">
+    </a>
       <a routerLink="/vision">Vision</a>
       <a routerLink="/programs">Program</a>
       <a routerLink="/contact">Contact</a>
