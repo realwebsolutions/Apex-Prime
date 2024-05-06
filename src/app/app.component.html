@@ -1,19 +1,14 @@
-
-  
-  <nav *ngIf="!scrolled">
+  <nav *ngIf="!scrolled" @fadeAnimation>
     <a routerLink="/home">    <img  src="../assets/hm-min.png" class="img-fluid" width="40px">
     </a>
-
       <a routerLink="/vision">Vision</a>
       <a routerLink="/programs">Program</a>
       <a routerLink="/contact">Contact</a>
   </nav>
-  <nav *ngIf="scrolled" id="scrolled" class="text-white">
+  <nav *ngIf="scrolled" id="scrolled" class="text-white" @fadeAnimation >
       <a (click)="scrol()"> <mat-icon> dehaze</mat-icon></a>
   </nav>
-
-  <router-outlet ></router-outlet>
-  <footer class="footer">
+  <router-outlet ></router-outlet>  <footer class="footer">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col text-center">
@@ -21,7 +16,6 @@
         </div>
       </div>
       <div class="row justify-content-center">
-  
         <div class="col text-center">
           <ul class="social-links justify-content-center">
             <li>
