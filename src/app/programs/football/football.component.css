@@ -77,6 +77,10 @@
   }
   @media (max-width: 550px) {
 .text-container{
-    margin-top: 130px;
+    margin-top: 155px;
 }  
+.container {
+
+  width: 100%;
+}
 }

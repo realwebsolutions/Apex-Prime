@@ -19,7 +19,7 @@ color: black;
 
 }
 .header{
-    margin-top:200px;
+    margin-top:150px;
 }
 #gradient{
     background-image: linear-gradient(to bottom, black, white);
